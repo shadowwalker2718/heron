@@ -13,6 +13,7 @@ java_toolchain(
     javabuilder = ["@bazel_tools//tools/jdk:JavaBuilder_deploy.jar"],
     singlejar = ["@bazel_tools//tools/jdk:SingleJar_deploy.jar"],
     genclass = ["@bazel_tools//tools/jdk:GenClass_deploy.jar"],
+    header_compiler = ["@bazel_tools//tools/jdk:turbine"],
     ijar = ["@bazel_tools//tools/jdk:ijar"],
     misc = [
         "-extra_checks:on",
